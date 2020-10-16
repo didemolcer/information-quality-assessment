@@ -1,4 +1,3 @@
-# information-quality-assessment
 A Research Compedium of
 
 <b>Quality Assessment of Web-Based Information on Type 2 Diabetes</b> 
