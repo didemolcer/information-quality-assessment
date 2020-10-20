@@ -9,7 +9,7 @@ This platform is a research compedium of our academic publication below.
 
 The platform provides the following materials:
 
-<b>Comparison of high- and low-quality websites:</b> It contains manual inspection of websites.
+<b>Comparison of high- and low-quality websites.pdf:</b> It contains manual inspection of websites.
 
 <b>Description of textual features.pdf:</b> It contains description of all features and information of how they are calculated. 
 
