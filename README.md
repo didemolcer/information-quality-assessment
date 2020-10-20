@@ -5,14 +5,14 @@ A Research Compedium of
 
 This platform is a research compedium of our academic publication below.
 
-Didem Ölçer, and Tugba Taskaya Temizel (2020). Quality Assessment of Web-Based Information on Type 2 Diabetes, Online Information Review, Emerald Insight (submitted).
+<i>Didem Ölçer, and Tugba Taskaya Temizel (2020). Quality Assessment of Web-Based Information on Type 2 Diabetes, Online Information Review, Emerald Insight (submitted).</i>
 
 The platform provides the following materials:
 
-Manual inspection of websites.pdf: 
+<b>Comparison of high- and low-quality websites:</b> It contains manual inspection of websites.
 
-Description of feature.pdf: 
+<b>Description of textual features.pdf:</b> It contains description of all features and information of how they are calculated. 
 
-Comparison studies.pdf:
+<b>List of content-based features.pdf:</b> It contains all selected terms from ADA and their weirdness scores.
 
-Processes.pdf:
+<b>Processes.pdf:</b> It contains process of selection of websites and employed methodology.
