@@ -3,8 +3,7 @@ Figure 1 shows the process of selection of websites.
 <p>For the collection of websites, keyword searches were performed on Google and Yahoo search engines in June 2016 and August 2016. Six keywords were selected based on type 2 diabetes and DISCERN questions. The following keywords used: “type 2 diabetes”, “type 2 diabetes treatments”, “type 2 diabetes treatments risks”, “type 2 diabetes treatments benefits”, “type 2 diabetes no treatment” and “life with type 2 diabetes”. A wide range of search keywords is used to ensure reaching websites that can be used to assess the coverage of websites related to DISCERN questions.</p>  
 
 <img src="https://github.com/didemolcer/information-quality-assessment/blob/master/documents/Selection%20of%20websites.png">
- 
-                 <b>Figure 1:</b> Process of selection of the websites
+<center><p><b>Figure 1:</b> Process of selection of the websites</p></center>
 
 
 The methodology employed in this study is summarized in Figure 2.
@@ -12,4 +11,4 @@ The crawled websites were initially pre-processed before conducting the analyses
 
 
 <img src="https://github.com/didemolcer/information-quality-assessment/blob/master/documents/methodology.png">
-                                <b>Figure 2:</b>  Methodology
+<center><p><b>Figure 2:</b>  Methodology</p></center>
