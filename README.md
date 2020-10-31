@@ -1,3 +1,12 @@
+<html>
+<head>
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+</head>
 A Research Compedium of <h2>Quality Assessment of Web-Based Information on Type 2 Diabetes</h2> 
 <hr>
 
