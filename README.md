@@ -1,4 +1,4 @@
-A Research Compedium of <b>Quality Assessment of Web-Based Information on Type 2 Diabetes</b> 
+A Research Compedium of <h2>Quality Assessment of Web-Based Information on Type 2 Diabetes</h2> 
 <hr>
 
 This platform is a research compedium of our academic publication below.
@@ -6,7 +6,7 @@ This platform is a research compedium of our academic publication below.
 <i>Didem Ölçer, and Tugba Taskaya Temizel (2020). Quality Assessment of Web-Based Information on Type 2 Diabetes, Online Information Review, Emerald Insight (submitted).</i>
 <hr>
 
-<p>The study investigates the impact of textual and content-based features in predicting the quality of health-related texts. The experiments were conducted for websites about type-2 diabetes and mainly focuses on assessing the quality of written information about treatment choices.</p>
+<p>The study investigates the impact of <i>textual and content-based features</i> in predicting the quality of health-related texts. The experiments were conducted for websites about type-2 diabetes and mainly focuses on assessing the quality of written information about treatment choices.</p>
 <ul>
 <li>Which textual features reveal the quality of health websites? Are the linguistic styles of high-quality websites different from those of low-quality websites?
 <ul>
@@ -22,13 +22,13 @@ This platform is a research compedium of our academic publication below.
 <b><i>The platform provides the following materials:</i></b>
 <hr>
 <p></p>
-<p><b>documents/</b></p>
+<p><h3>documents/</b></h3>
 
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
 <p>It contains description of all textual features and information of how they are calculated (description of textual features.md).</p>
 <p>In addition, it contains all selected terms from ADA and their weirdness scores (list of content-based features.md).</p>
 
-<b>code/</b>
+<h3>code/</h3>
 
 The code/ directory contains an RStudio project and two subdirectories, exploration/ which contains R Markdown exploratory analyses, and scripts/ which contains all the code for actually cleaning, combining, and generating the data. All paths in the scripts are relative to the code/ base (where the .Rproj file lives).
 
@@ -36,7 +36,7 @@ In the scripts/ subdirectory, functions live in the functions/ subdirectory and 
 
 Each .R script has a summary at the top of what it does. The scripts are numbered in the order in which they would typically be run.
 
-<b>data/</b>
+<h3>data/</h3>
 
 The original text of websites cannot be given for copyright. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.
  
