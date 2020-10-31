@@ -22,7 +22,7 @@ Each .R script has a summary at the top of what it does. The scripts are numbere
 
 <b>data/</b>
 
-The original text of websites' data cannot be given for copyright. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.
+The original text of websites cannot be given for copyright. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.
  
 Any data that is produced using code is contained in data/processed_data/.
 
