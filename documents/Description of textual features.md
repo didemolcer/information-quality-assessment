@@ -121,7 +121,7 @@
 </ul>
 </li>
 </ul>
-<div align="center"><p>Table 1: Examples of sentence types</p>
+<div align="center"><p><b>Table 1:</b> Examples of sentence types</p>
 <table style="margin-left: auto; margin-right: auto; width: 672px;">
 <table style="margin-left: auto; margin-right: auto; width: 601px;">
 <tbody>
