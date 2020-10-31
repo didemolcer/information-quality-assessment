@@ -114,53 +114,52 @@
 <li><strong><em>Text Sentence Type</em></strong> features are constructed to analyse the types of sentences. Unlike other studies, sentence types were used as a feature in this study. The motivation behind this is health websites generally use imperative and declarative sentences to guide patients. Five different types of sentences in English were considered: Imperative, Interrogative, Exclamatory, Existential and Declarative. Table 1 shows an example for each sentence type.</li>
 </ul>
 <div align="center"><p>Table 1: Examples of sentence types</p>
-<table style="margin-left: auto; margin-right: auto;">
 <tbody>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p><strong>Sentence types</strong></p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p><strong>Examples</strong></p>
 </td>
 </tr>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p>Imperative sentences</p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p>&ldquo;<em>Monitor</em> your blood glucose every three to four hours.&rdquo;</p>
 </td>
 </tr>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p>Interrogative sentences</p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p>&ldquo;How do insulin pumps work<em>?</em>&rdquo;</p>
 </td>
 </tr>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p>Exclamatory sentences</p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p>&ldquo;Initially take it slow you don't want to start off too hard, if you are not used to the exercise you will be sore the next day and this will not make exercising a fun experience<em>!</em>&rdquo;</p>
 </td>
 </tr>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p>Existential sentences</p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p>&ldquo;<em>There</em> are different types of insulin depending on how quickly they work, when they peak, and how long they last.&rdquo;</p>
 </td>
 </tr>
 <tr>
-<td width="142">
+<td style="width: 179px;">
 <p>Declarative sentences</p>
 </td>
-<td width="366">
+<td style="width: 477px;">
 <p>&ldquo;Inside the pancreas, beta cells make the hormone insulin.&rdquo;</p>
 </td>
 </tr>
