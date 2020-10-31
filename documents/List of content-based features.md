@@ -1,5 +1,7 @@
 <div align="center"><p><strong>SELECTED TERMS AND WEIRDNESS SCORES</strong></p></div>
 
+<p>The first 70 terms have zero frequency in the iWeb corpus, but a finite frequency in the ADA corpus; hence weirdness coefficients for these terms were resulted in infinity. These 70 terms were given a surplus of seventy-first term's score instead of infinity. </p>
+
 <div align="center"><p><b>Table 1:</b> All selected terms and weirdness scores</p>
 <table width="464">
 <tbody>
