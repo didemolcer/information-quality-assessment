@@ -16,6 +16,7 @@ This platform is a research compedium of our academic publication below.
 <li>Does the use of both textual and content-based features perform better than the sole use of textual or content-based features in the classification of websites in terms of quality?</li>
 </ul>
 
+<b><i>The platform provides the following materials:</i></b>
 <b>documents/</b>
 
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
