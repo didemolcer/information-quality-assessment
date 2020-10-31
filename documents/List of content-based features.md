@@ -1,7 +1,7 @@
 <div align="center"><p><strong>SELECTED TERMS AND WEIRDNESS SCORES</strong></p></div>
 
 Sentences containing auxiliary verbs from ADA’s related sections about the treatment of type 2 diabetes were extracted and each was employed to form the queries. ADA was used as a specialized corpus and iWeb was used as a general corpus. 
-<p>Part-of-speech tagger (specifically Stanford Part-Of-Speech (POS) Tagger (Kristina & Christopher D., 2000)) was applied. The candidate feature terms were restricted as following: NN, JJ; for 2-grams: NN NN, JJ NN; for 3-grams: NN NN NN, JJ NN NN, JJ JJ NN, where NN and JJ are the POS tags for nouns and adjectives respectively.</p>
+<p>Part-of-speech tagger (specifically Stanford Part-Of-Speech (POS) Tagger was applied. The candidate feature terms were restricted as following: NN, JJ; for 2-grams: NN NN, JJ NN; for 3-grams: NN NN NN, JJ NN NN, JJ JJ NN, where NN and JJ are the POS tags for nouns and adjectives respectively.</p>
 
 <p>The first 70 terms have zero frequency in the iWeb corpus, but a finite frequency in the ADA corpus; hence weirdness coefficients for these terms were resulted in infinity. These 70 terms were given a surplus of seventy-first term's score instead of infinity. </p>
 
