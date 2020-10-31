@@ -22,13 +22,12 @@ Each .R script has a summary at the top of what it does. The scripts are numbere
 
 <b>data/</b>
 
-The original data is stored in the data/raw_data/ subdirectory.
-
+The original text of websites' data cannot be given for copyright. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.
+ 
 Any data that is produced using code is contained in data/processed_data/.
 
 Modeling results are saved in the data/results/ subdirectory
 
 
-<b>Comparison of high- and low-quality websites.pdf:</b> It contains manual inspection of websites.
 
  
