@@ -17,7 +17,8 @@ This platform is a research compedium of our academic publication below.
 </ul>
 
 <b><i>The platform provides the following materials:</i></b>
-<b>documents/</b>
+<p></p>
+<p><b>documents/</b>>/p>
 
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
 <p>It contains description of all textual features and information of how they are calculated (description of textual features.md).</p>
