@@ -38,7 +38,7 @@ Each .R script has a summary at the top of what it does. The scripts are numbere
 
 <h3>data/</h3>
 
-The original text of websites cannot be given for copyright. Also, as these websites were collected between June 2016 and August 2016, their content may have changed when viewed up to date. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.
+<p style="text-align: justify;">The original text of websites cannot be given for copyright. Also, as these websites were collected between June 2016 and August 2016, their content may have changed when viewed up to date. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.</p>
  
 Any data that is produced using code is contained in data/processed_data/.
 
