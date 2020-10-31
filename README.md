@@ -4,6 +4,8 @@ This platform is a research compedium of our academic publication below.
 
 <i>Didem Ölçer, and Tugba Taskaya Temizel (2020). Quality Assessment of Web-Based Information on Type 2 Diabetes, Online Information Review, Emerald Insight (submitted).</i>
 
+The study investigates the impact of textual and content-based features in predicting the quality of health-related texts. 
+
 The platform provides the following materials:
 
 <b>documents/</b>
