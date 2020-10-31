@@ -107,13 +107,13 @@
 </li>
 <li><strong><em>The Level of Readability</em></strong> features are used as a way to verify if the text is well written, understandable, and free of unnecessary complexity. Flesch Kincaid Grade Level (FKGL) and Simple Measure of Gobbledygook (SMOG) indices are frequently used. In the calculation of SMOG, at least 30 sentences in a row near the beginning, in the middle and in the end are selected from text. The motivation behind this is health websites are expected to provide understandable health information regardless of age, background or reading level (Toolkit for producing patient information, 2003; Best Practice Guidance on Patient Information Leaflets, 2014; MedlinePlus Trusted Health Information for You, 2018).</li>
 </ul>
-<p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SMOG=1.0430&radic;(number of polysyllables*30/(number of sentences ))+3.1291</em></p>
-<p style="text-align: center;"><em>FKGL=0.39((total words)/(total sentences))+11.8 ((total syllables)/(total words))-15.59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></p>
+<div align="center"><p><em>SMOG=1.0430&radic;(number of polysyllables*30/(number of sentences ))+3.1291</em></p></div>
+<div align="center"><em>FKGL=0.39((total words)/(total sentences))+11.8 ((total syllables)/(total words))-15.59</em></p></div>
 <p>Apart from adopted features, the following feature set was developed:</p>
 <ul>
 <li><strong><em>Text Sentence Type</em></strong> features are constructed to analyse the types of sentences. Unlike other studies, sentence types were used as a feature in this study. The motivation behind this is health websites generally use imperative and declarative sentences to guide patients. Five different types of sentences in English were considered: Imperative, Interrogative, Exclamatory, Existential and Declarative. Table 1 shows an example for each sentence type.</li>
 </ul>
-<p style="text-align: center;"><a name="_Toc52457088"></a>Table 1: Examples of sentence types</p>
+<div align="center"><p>Table 1: Examples of sentence types</p>
 <table style="margin-left: auto; margin-right: auto;">
 <tbody>
 <tr>
@@ -165,7 +165,7 @@
 </td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>&nbsp;</p>
 <ul style="list-style-type: circle;">
 <li>If the first word of the sentence is a verb (&ldquo;VB, VBD, VBG, VBN, VBP, VBZ&rdquo; POS tags), then the sentence is labelled as imperative.</li>
@@ -177,6 +177,6 @@
 <ul>
 <li><strong><em>Lexical variety</em></strong> is the normalized measure of the unique words used in a text with all words. The motivation behind this is if a website is comprehensive, the lexical variety is expected to be high.</li>
 </ul>
-<p style="text-align: center;"><em>Lexical variety=(number of unique words)/(number of words)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
-<h1 style="color: #5e9ca0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</h1>
-<p>&nbsp;</p>
+<div align="center"><em>Lexical variety=(number of unique words)/(number of words)</em></p></div>
+
+
