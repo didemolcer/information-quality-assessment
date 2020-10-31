@@ -111,15 +111,25 @@
 <div align="center"><em>FKGL=0.39((total words)/(total sentences))+11.8 ((total syllables)/(total words))-15.59</em></p></div>
 <p>Apart from adopted features, the following feature set was developed:</p>
 <ul>
-<li><strong><em>Text Sentence Type</em></strong> features are constructed to analyse the types of sentences. Unlike other studies, sentence types were used as a feature in this study. The motivation behind this is health websites generally use imperative and declarative sentences to guide patients. Five different types of sentences in English were considered: Imperative, Interrogative, Exclamatory, Existential and Declarative. Table 1 shows an example for each sentence type.</li>
+<li><strong><em>Text Sentence Type</em></strong> features are constructed to analyse the types of sentences. Unlike other studies, sentence types were used as a feature in this study. The motivation behind this is health websites generally use imperative and declarative sentences to guide patients. Five different types of sentences in English were considered: Imperative, Interrogative, Exclamatory, Existential and Declarative. Table 1 shows an example for each sentence type.
+<ul>
+<li>If the first word of the sentence is a verb (&ldquo;VB, VBD, VBG, VBN, VBP, VBZ&rdquo; POS tags), then the sentence is labelled as imperative.</li>
+<li>The sentence is marked as an interrogative sentence when it has a question mark (?).</li>
+<li>If it has an exclamation mark (!), it is regarded as an exclamatory sentence.</li>
+<li>An existential sentence is a sentence that asserts the existence or nonexistence of something; if a sentence starts with existential &ldquo;there&rdquo; (&ldquo;DT, EX&rdquo; POS tags), it is considered as an existential sentence.</li>
+<li>The rest of the sentences apart from these in the text are labelled as declarative.</li>
+</ul>
+</li>
 </ul>
 <div align="center"><p>Table 1: Examples of sentence types</p>
+<table style="margin-left: auto; margin-right: auto; width: 672px;">
+<table style="margin-left: auto; margin-right: auto; width: 601px;">
 <tbody>
 <tr>
 <td style="width: 179px;">
 <p><strong>Sentence types</strong></p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p><strong>Examples</strong></p>
 </td>
 </tr>
@@ -127,7 +137,7 @@
 <td style="width: 179px;">
 <p>Imperative sentences</p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p>&ldquo;<em>Monitor</em> your blood glucose every three to four hours.&rdquo;</p>
 </td>
 </tr>
@@ -135,7 +145,7 @@
 <td style="width: 179px;">
 <p>Interrogative sentences</p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p>&ldquo;How do insulin pumps work<em>?</em>&rdquo;</p>
 </td>
 </tr>
@@ -143,7 +153,7 @@
 <td style="width: 179px;">
 <p>Exclamatory sentences</p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p>&ldquo;Initially take it slow you don't want to start off too hard, if you are not used to the exercise you will be sore the next day and this will not make exercising a fun experience<em>!</em>&rdquo;</p>
 </td>
 </tr>
@@ -151,7 +161,7 @@
 <td style="width: 179px;">
 <p>Existential sentences</p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p>&ldquo;<em>There</em> are different types of insulin depending on how quickly they work, when they peak, and how long they last.&rdquo;</p>
 </td>
 </tr>
@@ -159,20 +169,14 @@
 <td style="width: 179px;">
 <p>Declarative sentences</p>
 </td>
-<td style="width: 477px;">
+<td style="width: 406px;">
 <p>&ldquo;Inside the pancreas, beta cells make the hormone insulin.&rdquo;</p>
 </td>
 </tr>
 </tbody>
 </table></div>
-<p>&nbsp;</p>
-<ul style="list-style-type: circle;">
-<li>If the first word of the sentence is a verb (&ldquo;VB, VBD, VBG, VBN, VBP, VBZ&rdquo; POS tags), then the sentence is labelled as imperative.</li>
-<li>The sentence is marked as an interrogative sentence when it has a question mark (?).</li>
-<li>If it has an exclamation mark (!), it is regarded as an exclamatory sentence.</li>
-<li>An existential sentence is a sentence that asserts the existence or nonexistence of something; if a sentence starts with existential &ldquo;there&rdquo; (&ldquo;DT, EX&rdquo; POS tags), it is considered as an existential sentence.</li>
-<li>The rest of the sentences apart from these in the text are labelled as declarative.</li>
-</ul>
+<p> </p>
+
 <ul>
 <li><strong><em>Lexical variety</em></strong> is the normalized measure of the unique words used in a text with all words. The motivation behind this is if a website is comprehensive, the lexical variety is expected to be high.</li>
 </ul>
