@@ -4,9 +4,17 @@ This platform is a research compedium of our academic publication below.
 
 <i>Didem Ölçer, and Tugba Taskaya Temizel (2020). Quality Assessment of Web-Based Information on Type 2 Diabetes, Online Information Review, Emerald Insight (submitted).</i>
 
-The study investigates the impact of textual and content-based features in predicting the quality of health-related texts. 
-
-The platform provides the following materials:
+<p>The study investigates the impact of textual and content-based features in predicting the quality of health-related texts. The experiments were conducted for websites about type-2 diabetes and mainly focuses on assessing the quality of written information about treatment choices.</p>
+<ul>
+<li>Which textual features reveal the quality of health websites? Are the linguistic styles of high-quality websites different from those of low-quality websites?
+<ul>
+<li>Are textual features derived from professional health literacy guidelines useful in assessing the quality of websites?</li>
+<li>Is there any relationship between the frequencies of certain sentence types and the quality of websites? How is the number of auxiliary verbs related to the quality of websites?</li>
+</ul>
+</li>
+<li>How are content-based features related to the quality and coverage of websites?</li>
+<li>Does the use of both textual and content-based features perform better than the sole use of textual or content-based features in the classification of websites in terms of quality?</li>
+</ul>
 
 <b>documents/</b>
 
