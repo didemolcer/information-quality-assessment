@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Nov  2 10:50:09 2020
-
 @author: didem
 """
 import os,string,bs4
@@ -33,7 +30,6 @@ java_path = "C:/Program Files (x86)/Java/jre1.8.0_231/bin/java.exe"
 os.environ['JAVAHOME'] = java_path
 
 
-
 ###############################################################################
 
 websiteNum=61 #number of websites+1
@@ -43,7 +39,7 @@ for y in range (1,websiteNum):
     try:
         if(os.path.isfile("C:\\...\\%d.txt"%(y))):
 
-            file=open("C:\\...\\%d.txt"%(y), encoding="utf8")#.read()#.decode("latin1").encode("utf8")
+            file=open("C:\\...\\%d.txt"%(y), encoding="utf8")
             text=file.read()
             file.close()
             
