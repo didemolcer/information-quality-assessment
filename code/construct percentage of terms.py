@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: didem
-"""
-
 import string
 import re
 from nltk import word_tokenize
@@ -47,9 +42,8 @@ while(1):
                  full=' '.join(lmtz_tokens)
                  
                  
-                 for total in terms:
-#                   
-                   x=count=0
+                 for total in terms:             
+                   count=0
                    for gram in total:
                          r = re.compile(r'\b%s\b' % gram, re.I)
                          m = r.search(full)
