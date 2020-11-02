@@ -1,6 +1,3 @@
-"""
-@author: didem
-"""
 import os,string,bs4
 
 from textstat.textstat import textstat
@@ -12,7 +9,7 @@ from nltk.tag.stanford import StanfordPOSTagger as POS_Tag
 from nltk.parse.stanford import StanfordParser
 from nltk.parse.stanford import StanfordDependencyParser
 
-current_dir = 'C:/Users/didem/.spyder'
+current_dir = 'C:/Users/.../.spyder'
 
 _path_to_model = current_dir+'/stanford-postagger/models/english-bidirectional-distsim.tagger' 
 _path_to_jar = current_dir + '/stanford-postagger/stanford-postagger.jar'
