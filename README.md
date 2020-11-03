@@ -34,9 +34,9 @@ The code/ directory contains three code documents:
 
 1. Textual features.py: to calculate textual features of websites; need .txt and .html files of websites.
 
-2. Construct percentage of terms.py: to calculate the percentage of the terms as a quantization technique; need query files which are stored in <code>data/query/</code>. First, how many of the terms in the query appeared in the document was calculated. Then, this number was normalized by dividing it by the total number of words in the query.   
+2. Construct percentage of terms.py: to calculate the percentage of the terms as a quantization technique; need query files that are stored in <code>data/query/</code>. First, how many of the terms in the query appeared in the document was calculated. Then, this number was normalized by dividing it by the total number of words in the query.   
 
-3. loocv elastic result.R: to get results of classification; need textual and content-based features that are stored in <code>data/</code>
+3. Loocv elastic result.R: to get results of classification; need textual and content-based features that are stored in <code>data/</code>
 
 <h3>data/</h3>
 
@@ -44,7 +44,7 @@ The code/ directory contains three code documents:
 
 It contains all textual features used for this study (textual features.csv). 
 
-In addition, used query files are saved in <code>data/query</code> subdirectory and content vectorization are saved in <code>data/content vectorization</code> subdirectory. There are 9 files for each because each feature set was constructed to include the top 70 to 630 terms, with an increment of 70. 
+In addition, used query files are saved in <code>data/query</code> subdirectory and content vectorization that is produced using code (construct percentage of terms.py) are saved in <code>data/content vectorization</code> subdirectory. There are 9 files for each because each feature set was constructed to include the top 70 to 630 terms, with an increment of 70. 
 
 
  
