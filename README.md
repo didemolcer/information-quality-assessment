@@ -32,11 +32,11 @@ This platform is a research compedium of our academic publication below.
 
 The code/ directory contains three code documents:
 
-1. Textual features.py: to calculate textual features of websites; need .txt and .html files of websites.
+1. <u>Textual features.py:</u> to calculate textual features of websites; need .txt and .html files of websites.
 
-2. Construct percentage of terms.py: to calculate the percentage of the terms as a quantization technique; need query files that are stored in <code>data/query/</code>. First, how many of the terms in the query appeared in the document was calculated. Then, this number was normalized by dividing it by the total number of words in the query.   
+2. <u>Construct percentage of terms.py:</u> to calculate the percentage of the terms as a quantization technique; need query files that are stored in <code>data/query/</code>. First, how many of the terms in the query appeared in the document was calculated. Then, this number was normalized by dividing it by the total number of words in the query.   
 
-3. Loocv elastic result.R: to get results of classification; need textual and content-based features that are stored in <code>data/</code>
+3. <u>Loocv elastic result.R:</u> to get results of classification; need textual and content-based features that are stored in <code>data/</code>
 
 <h3>data/</h3>
 
