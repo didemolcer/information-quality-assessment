@@ -34,7 +34,13 @@ The code/ directory contains an
 
 <h3>data/</h3>
 
-<p style="text-align: justify;">The original text of websites cannot be given for copyright. Also, as these websites were collected between June 2016 and August 2016, their content may have changed when viewed up to date. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given.</p>
+<p style="text-align: justify;">"The original text of websites cannot be given for copyright. Also, as these websites were collected between June 2016 and August 2016, their content may have changed when viewed up to date. Therefore the description of all features is given in" <code>documents/</code>" and in the" <code>code/</code>" how they are generated is given. Also, the name of websites and their quality scores are given(websites scores.csv)"</p>
+
+It contains all textual features used for this study (textual features.csv). 
+
+Used query files are seved in" <code>data/query</code>" subdirectory and content vectorization are saved in" <code>data/content vectorization</code>" subdirectory.
+
+
  
 
 
