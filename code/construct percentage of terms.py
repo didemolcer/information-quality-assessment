@@ -13,10 +13,10 @@ while(1):
     if weird>690:
         break;
     else:
-        f=open("C:\\...\\matrix %s.txt"%(weird),"w",encoding="utf8")
+        f=open("C:\\...\\matrix %s.txt"%(weird),"w",encoding="utf8") #the path of data where must be writen
         total=[]    
         
-        h= open("C:\\...\\query %s.txt"%(weird),encoding="utf8") 
+        h= open("..\\data\\query\\query %s.txt"%(weird),encoding="utf8") 
         terms = ''.join(h.readlines())
         terms = [x.rstrip().split('*') for x in terms.split('\n')[: -1]]
         
@@ -24,7 +24,7 @@ while(1):
                  tokensC=sentsC=0
                  print(y)
            
-                 textt=open("C:\\...\\%d.txt"%(y), encoding="utf8")
+                 textt=open("C:\\...\\%d.txt"%(y), encoding="utf8")  #the path of data must be given
                  text=textt.read()
                  
                  text=text.lower()
