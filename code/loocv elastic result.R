@@ -22,7 +22,7 @@ sink(str)
 
 while(weird <640)
 {
-  datasett <- read.csv(file="textual features.csv", header=TRUE, sep=",")
+  datasett <- read.csv(file="../data/textual features.csv", header=TRUE, sep=",")
   
   ###matrix
   # name=paste(tablename,weird,sep=' ')
@@ -38,7 +38,7 @@ while(weird <640)
   # dataset <- datasett[,1:length(datasett)-1]
   # alldata <- cbind(dataset,alldata)
   
-  # alldata$Discern <- datasett$Discern
+  # alldata$Discern <- datasett$Discern    #datasett$Cov.Cor
   # datasett <- alldata
   
   ###############################
@@ -46,7 +46,7 @@ while(weird <640)
   dataset <- datasett[,1:length(datasett)-1]
   alldata <- dataset
   
-  classes <- as.matrix(datasett$Discern) #datasett$Cov.Cor
+  classes <- as.matrix(datasett$Discern)   #datasett$Cov.Cor
   
   #################### 
   # Model Fit
@@ -83,7 +83,7 @@ while(weird <640)
     pred_alldata[which(fold == foldnum)] = predict(fit,as.matrix(alldata_test1), cvfit_lambda_min_avg, type = "class")
     
     p= as.factor(predict(fit,as.matrix(alldata_test1), cvfit_lambda_min_avg, type = "class"))
-    a= as.factor(class_test1$Discern)
+    a= as.factor(class_test1$Discern)  #datasett$Cov.Cor
     
     if(p==a){
       accuracy=1
@@ -125,7 +125,7 @@ while(weird <640)
   print(result)
   print(cm)
   print(acc.all)
-  write.xlsx(ModelOutput,file=afile,append=FALSE,sheet = sheetname)
+  write.xlsx(ModelOutput,file=afile,append=FALSE,sheet = name)
   
   weird=weird+70 
   
