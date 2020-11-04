@@ -9,8 +9,8 @@ from nltk.tag.stanford import StanfordPOSTagger as POS_Tag
 from nltk.parse.stanford import StanfordParser
 from nltk.parse.stanford import StanfordDependencyParser
 
-current_dir = 'C:/Users/.../.spyder'
-
+current_dir = 'C:/Users/.../.spyder'   #the path of spyder must be given
+ 
 _path_to_model = current_dir+'/stanford-postagger/models/english-bidirectional-distsim.tagger' 
 _path_to_jar = current_dir + '/stanford-postagger/stanford-postagger.jar'
 st = POS_Tag(model_filename=_path_to_model, path_to_jar=_path_to_jar)
@@ -23,7 +23,7 @@ my_path_to_jar = stanford_parser_dir + "/stanford-parser.jar"
 parser = StanfordParser(model_path = eng_model_path, path_to_models_jar = my_path_to_models_jar, path_to_jar = my_path_to_jar)
 dependency_parser = StanfordDependencyParser(path_to_jar = my_path_to_jar, path_to_models_jar = my_path_to_models_jar)
 
-java_path = "C:/Program Files (x86)/Java/jre1.8.0_231/bin/java.exe"
+java_path = "C:/Program Files (x86)/Java/jre1.8.0_231/bin/java.exe"  #the path of java must be given
 os.environ['JAVAHOME'] = java_path
 
 
@@ -34,9 +34,9 @@ webpageNum=43 #max web page number of websites+1
 
 for y in range (1,websiteNum):
     try:
-        if(os.path.isfile("C:\\...\\%d.txt"%(y))):
+        if(os.path.isfile("C:\\...\\%d.txt"%(y))):  #the path of data must be given
 
-            file=open("C:\\...\\%d.txt"%(y), encoding="utf8")
+            file=open("C:\\...\\%d.txt"%(y), encoding="utf8")  #the path of data must be given
             text=file.read()
             file.close()
             
@@ -161,9 +161,9 @@ for y in range (1,websiteNum):
     totalSec=totalImg=totalBullet=totalPrg=totalPrgLen=totalSecLen=0
     for x in range (1,webpageNum):
      try:
-        if(os.path.isfile("C:\\...\\%d\\%d (%d).html"%(y))):
+        if(os.path.isfile("C:\\...\\%d\\%d (%d).html"%(y))):  #the path of data must be given
 
-            html=open("C:\\...\\%d (%d).html"%(y),encoding='utf8').read()
+            html=open("C:\\...\\%d (%d).html"%(y),encoding='utf8').read()  #the path of data must be given
             soup=bs4.BeautifulSoup(html);
     
 ############delete script ve noscript 
