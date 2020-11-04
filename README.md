@@ -27,6 +27,8 @@ This platform is a research compedium of our academic publication below.
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
 <p>It contains description of all textual features and information of how they are calculated (description of textual features.md).</p>
 <p>In addition, it contains all selected terms from ADA and their weirdness scores (list of content-based features.md).</p>
+<p>The difference between low- and high-quality websites are given with some examples from three different websites (Comparison of high- and low-quality websites.pdf) </p>
+<p></p>
 
 <h3>code/</h3>
 
