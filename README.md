@@ -27,7 +27,6 @@ This platform is a research compedium of our academic publication below.
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
 <p>It contains description of all textual features and information of how they are calculated (description of textual features.md).</p>
 <p>In addition, it contains all selected terms from ADA and their weirdness scores (list of content-based features.md).</p>
-<p>The difference between low- and high-quality websites are given with some examples from three different websites (Comparison of high- and low-quality websites.pdf) </p>
 <p></p>
 
 <h3>code/</h3>
@@ -48,10 +47,3 @@ It contains all textual features used for this study (textual features.csv).
 
 In addition, used query files are saved in <code>data/query</code> subdirectory and content vectorization that is produced using code (construct percentage of terms.py) is saved in <code>data/content vectorization</code> subdirectory. There are 9 files for each because each feature set was constructed to include the top 70 to 630 terms, with an increment of 70. 
 
-
- 
-
-
-
-
- 
