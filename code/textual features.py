@@ -95,6 +95,7 @@ for y in range (1,websiteNum):
             vrb=['VB','VBG','VBD','VBN','VBP','VBZ'] 
             imp=dec=ques=exc=existen=0  
             
+            avgSentence=tokensC/sentsC
             for sent in sents:
                     
                 Stokens = word_tokenize(sent)
@@ -123,11 +124,9 @@ for y in range (1,websiteNum):
               
             #=======Short sentence rate=============
                                                                 
-                if (len(Stokens)<=15):
+                if (len(Stokens)<=avgSentence-5):
                     shortSent=shortSent+1;
-            
-                if len(sents)>0 and shortSent>0:
-                    shortSentRate=shortSent*100/len(sents);        
+         
                     
 #==============================================================================
 #       Sentence Type Features
@@ -149,7 +148,9 @@ for y in range (1,websiteNum):
                          
                        else:
                            dec=dec+1;  #declarative sentences
-                           
+                
+            if len(sents)>0 and shortSent>0:
+                 shortSentRate=shortSent*100/len(sents);                  
     except:
             print("Error")                  
         
