@@ -79,7 +79,7 @@
 </li>
 <li>Short sentence rate
 <ul>
-<li>Calculate the percentage of sentences whose length is less than 15 words</li>
+<li>Calculate the percentage of sentences where  (average sentence length - sentence length >= 5 words)</li>
 </ul>
 </li>
 </ul>
