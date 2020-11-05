@@ -42,11 +42,11 @@ The code/ directory contains three code documents:
 
 <h3>data/</h3>
 
-<p style="text-align: justify;">The original text of websites cannot be given for copyright. Also, as these websites were collected between June 2016 and August 2016, their content may have changed when viewed up to date. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given. Also, the name of websites and their quality scores are given(websites scores.csv)</p>
+<p style="text-align: justify;">The original text of websites cannot be given for copyright. Therefore the description of all features is given in <code>documents/</code> and in the <code>code/</code> how they are generated is given. Also, the name of websites and their quality scores are given(websites scores.csv)</p>
 
 It contains all textual features used for this study (textual features.csv). 
 
-In addition, used query files are saved in <code>data/query</code> subdirectory and content vectorization that is produced using code (construct percentage of terms.py) are saved in <code>data/content vectorization</code> subdirectory. There are 9 files for each because each feature set was constructed to include the top 70 to 630 terms, with an increment of 70. 
+In addition, used query files are saved in <code>data/query</code> subdirectory and content vectorization that is produced using code (construct percentage of terms.py) is saved in <code>data/content vectorization</code> subdirectory. There are 9 files for each because each feature set was constructed to include the top 70 to 630 terms, with an increment of 70. 
 
 
  
