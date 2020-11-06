@@ -25,9 +25,9 @@ This platform is a research compedium of our academic publication below.
 <p><h3>documents/</b></h3>
 
 <p>This subdirectory contains detailed information about our process of selection of websites and employed methodology (process.md).</p>
-<p>It contains description of all textual features and information of how they are calculated (description of textual features.md).</p>
+<p>It contains description of all textual features and information of how they are calculated (description of textual features.md). As supplementary material, a detailed table showing which studies specifically used the textual features is given (textual features and related studies.md).</p>
 <p>In addition, it contains all selected terms from ADA and their weirdness scores (list of content-based features.md).</p>
-<p>As supplementary material, a detailed table showing which studies specifically used the textual features is given (textual features and related studies.md).</p>  
+ 
 <p></p>
 
 <h3>code/</h3>
